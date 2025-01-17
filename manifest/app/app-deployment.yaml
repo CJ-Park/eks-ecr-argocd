@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: test-deploy
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app.kubernetes.io/name: test-app
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: test-app
-          image: joe1534/app-with-argocd:cda3f1501f0dac61e781f513a5daf5dec44ab20a
+          image: 710271920179.dkr.ecr.ap-northeast-2.amazonaws.com/eks-second:latest
           ports:
             - name: http
               containerPort: 8080

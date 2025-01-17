@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>cj</groupId>
-	<artifactId>app-with-argocd</artifactId>
+	<artifactId>eks-ecr-argocd</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>app-with-argocd</name>
-	<description>app-with-argocd</description>
+	<name>eks-ecr-argocd</name>
+	<description>eks-ecr-argocd</description>
 	<url/>
 	<licenses>
 		<license/>
